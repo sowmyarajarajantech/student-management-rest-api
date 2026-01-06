@@ -45,6 +45,13 @@ Controller → Service → Repository → Database
 
 ---
 
+## Database
+- Initially used H2 in-memory database for development
+- Migrated to MySQL for persistent storage
+- Hibernate auto-creates tables using JPA annotations
+
+---
+
 ## Sample Request (Create Student)
 
 ```json
